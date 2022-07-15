@@ -1,0 +1,307 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+body {font-family: 'montserrat', sans-serif}
+/*
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box
+}
+*/
+.container{
+/*	width: 1000px;*/
+	margin: 0 auto;
+}
+.header {
+	padding: 10px 0;
+	background:rgba(0,0,0,0.70);
+	position: absolute;
+	width: 100%;
+	z-index: 1000;
+	color: white;
+	box-shadow: 4px 4px 30px 2px grey;
+}
+.navigation ul {
+	list-style: none
+}
+.navigation li{
+	margin: 0 5px;
+}
+.navigation:hover li{
+	color: white;
+	font-size: 24px;
+	text-shadow: 0 0 25px rgba(0,246,255,1.00);
+}
+.navigation li a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.navigation p{
+	margin: 0 16px;
+}
+.navigation:hover p{
+	color: white;
+	font-size: 24px;
+	text-shadow: 0 0 25px rgba(0,246,255,1.00);
+}
+.navigation p a{
+	color: white;
+	text-decoration: none;
+	font-size: 24px;
+}
+img {
+	width: 150px;
+	margin-left: 20px
+}
+
+/*header end*/
+.bg {
+	background: url("img/IMG_0028.JPG");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+/*	height: vh*/
+}
+.vid{
+	height: 100vh;
+	overflow: hidden
+}
+.vid video{
+	width: 100%;
+	height: 100%;
+	object-fit: cover
+}
+.nd-1{
+	width: 900px;
+	overflow:hidden;
+	margin: 50px 0 0 300px;
+	border-radius: 20px;
+}
+.gtnv {
+	text-align: center;
+	font-style: normal;
+	font-size: 30px;
+	color: white;
+	padding-top: 50px;
+	text-transform: uppercase
+}
+.service{
+	padding: 75px
+}
+.service h2{
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+.content {
+	color: white
+}
+.text-center{
+	color: white;
+	padding: 20px;
+	border-top: 3px solid white;
+	border-bottom: 3px solid white;
+	margin-bottom: 40px
+}
+.feature{
+	overflow: hidden;
+	width: 300px
+}
+.feature img {
+	width: 100%;
+}
+.box {
+	width: 400px;
+	overflow: hidden;
+}
+.filter {
+	width: 300px;
+	height: 0px;
+	position: absolute;
+	display: flex;
+	overflow: hidden;
+	position: absolute;
+	justify-content: center;
+	align-items: center;
+	transition-duration: 0.5s;
+/*	background: rgba(0,0,0,0.20);*/
+	visibility: hidden;
+	opacity: 0
+}
+.box-1:hover .filter {
+	height: 60%;
+	opacity: 1;
+	visibility: visible
+}
+.content{
+	padding: 20px 0
+}
+.content p{
+	margin: 10px 0;
+	padding-bottom: 10px
+}
+p {
+	height: 150px;
+	font-size: 14px
+}
+.btn-1 {
+	color: white;
+	font-size: 15px;
+	text-decoration: none;
+	padding: 8px 10px;
+	margin-top: 1000px
+}
+.btn-1:hover {
+	color: rgba(243,255,0,1.00)
+}
+.cm {
+	margin-bottom: 30px
+}
+
+/*phiên bản 2.8*/
+.pb {
+	height: 390px;
+	position: relative;
+	margin: 0 auto
+}
+.bgpb {
+	height: 545px;
+	background: url("img/293368204_1207567776722229_2426970841339988620_n.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	padding: 460px 0 0 1000px;
+}
+.btn{
+	background: rgba(221,220,26,1.00);
+	color: white;
+	font-size: 25px;
+	text-decoration: none;
+	padding: 8px 32px;
+	margin: 20px 20px;
+/*	jz*/
+	position: absolute;
+	display: flex;
+	overflow: hidden;
+	position: absolute;
+	justify-content: center;
+	align-items: center;
+	transition-duration: 0.5s;
+	visibility: hidden;
+	opacity: 0
+}
+.bgpb:hover .btn{
+	opacity: 1;
+	visibility: visible;
+}
+
+/*chuong moi*/
+.hinhkazuha img{
+	width: 100%;
+	display: flex;
+}
+.chuongmoi {
+	color: white
+}
+.nd-chuongmoi {
+	height: 10px;
+	display: flex;
+	position: absolute;
+	overflow: hidden;
+	transition-duration: 0.5s;
+	visibility: hidden;
+	opacity: 0;
+	margin: 20px
+}
+.p-1{
+	width: 47%;
+	height: 100%;
+	margin-right: 20px
+}
+.p-1 p{
+	margin: 20px 30px 0 0
+}
+.p-2 {
+	width: 49%;
+	height: 100%
+}
+.chuongmoi:hover .nd-chuongmoi{
+	height: 60%;
+	opacity: 1;
+	visibility: visible
+}
+.p-2 p{
+	margin: 10px 0 10px 0
+}
+.jz {
+	margin-top:460px
+}
+
+/*banner*/
+.banner{
+	display: flex;
+	justify-content: center
+}
+.hop {
+	width: 900px;
+	display: flex;
+}
+.hop:hover .klee{
+	opacity: 1;
+	visibility: visible;
+}
+.klee {
+	position: absolute;
+	display: flex;
+	overflow: hidden;
+	transition-duration: 0.5s;
+	visibility: hidden;
+	opacity: 0;
+}
+.hop img {
+	height: 519px;
+	width: auto
+}
+.kkk {
+	margin-top: 430px
+}
+
+/*end*/
+.navigation-1 ul {
+	list-style: none}
+.navigation-1 li{
+	margin: 0 6px;}
+.navigation-1:hover li{
+	opacity: 0.5
+}
+.navigation-1 li a{
+	color: white;
+	text-decoration: none;
+	font-size: 30px;
+}
+.j {padding:10px}
+.logo-2 {
+	display: flex
+}
+.logo-3 {
+	display: flex;
+	margin-top: 50px
+}
+.navigation-2 ul {
+	list-style: none}
+.navigation-2 li{
+	margin: 0 6px;}
+.navigation-2:hover li{
+	opacity: 0.5
+}
+.navigation-2 li a{
+	color: white;
+	text-decoration: none;
+	font-size: 8px;
+}
+.name {
+	font-size: 15px;
+	color: white;
+	margin: 100px auto auto auto;
+	text-align: center
+}
